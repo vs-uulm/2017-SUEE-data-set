@@ -9,13 +9,13 @@ The data sets contain traffic in and out of the web server of the [student union
 
 The data was mixed with attack traffic. The attacks contained in these data sets are:
 
- * 50 attackers running [slowloris](https://github.com/gkbrk/slowloris) (IP addresses 10.128.0.0 to 10.128.0.50)
+ * 50 attackers running [slowloris](https://github.com/gkbrk/slowloris) (IP addresses 10.128.0.1 to 10.128.0.50)
  * 50 attackers running [slowhttptest](https://github.com/shekyan/slowhttptest) (IP addresses 10.128.0.50 to 10.128.0.100)
  * 50 attackers running slowloris-ng (IP addresses 10.128.0.100 to 10.128.0.150)
 
-Caution: because of an of-by-one error, the IP addresses 10.128.0.50 and 10.128.0.100 are used twice. In our own evaluation, we therefore choose to omit any packets sent by these clients completely.
+Caution: because of an of-by-one error, the IP addresses 10.128.0.50 and 10.128.0.100 are used twice. In our own evaluation, we therefore choose to omit any packets sent or received by these clients completely.
 
-The IP and MAC addresses of the benign clients were anonymized with [anon.py](https://github.com/vs-uulm/2017-SUEE-data-set/blob/master/anon.py), all IP addresses in the anonymized data sets are in the 192.168.0.0/16 block. The original IP addresses were in part from the Ulm University network and from diverse networks in Ulm and surrounding areas. Keep in mind, that the same IP address in SUEE1 and SUEE8 are not affiliated. However, every packet sent by an IP within one data set was originally sent by the same node.
+The IP and MAC addresses of the benign clients were anonymized with [anon.py](https://github.com/vs-uulm/2017-SUEE-data-set/blob/master/anon.py), all IP addresses in the anonymized data sets are in the 192.168.0.0/16 block. The original IP addresses were in part from the Ulm University network and mostly from diverse networks in Ulm and surrounding areas. Keep in mind, that the same IP address in SUEE1 and SUEE8 are not affiliated. However, every packet sent (or received) by an IP within one data set was originally sent (or received) by the same node.
 
 ## Attacker Configuration
 
