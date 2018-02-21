@@ -36,5 +36,5 @@ We like to thank the Student Union Electrical Engineering (Fachbereichsvertretun
 
 This work was supported in the bwNET100G+ project
 by the Ministry of Science, Research and the Arts Baden-
-W\"urttemberg (MWK).
+Württemberg (MWK).
 
