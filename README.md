@@ -5,7 +5,12 @@ Data sets can be downloaded here:
 [SUEE1](https://github.com/vs-uulm/2017-SUEE-data-set/releases/download/v1.0/SUEE1.pcap "24h traffic on 2017-11-02")
 [SUEE8](https://github.com/vs-uulm/2017-SUEE-data-set/releases/download/v1.0/SUEE8.pcap "8d traffic from 2017-11-05")
 
-The data sets contain traffic in and out of the web server of the [student union electrical engineering (Fachbereichsvertretung Eletrotechnik) at Ulm University](https://fs-et.de).
+| data set      | start date    | duration | #hosts |
+| ------------- |:------------- | -----: |-----: |
+| SUEE1         | 2017-11-02    | 24 h | 1634 |
+| SUEE8         | 2017-11-05    |  8 d | 8286 |
+
+The data sets contain traffic in and out of the web server of the [Student Union Electrical Engineering (Fachbereichsvertretung Eletrotechnik) at Ulm University](https://fs-et.de).
 
 The data was mixed with attack traffic. The attacks contained in these data sets are:
 
