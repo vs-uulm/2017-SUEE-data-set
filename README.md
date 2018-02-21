@@ -5,7 +5,7 @@ Data sets can be downloaded here:
 [SUEE1](https://github.com/vs-uulm/2017-SUEE-data-set/releases/download/v1.0/SUEE1.pcap "24h traffic on 2017-11-02")
 [SUEE8](https://github.com/vs-uulm/2017-SUEE-data-set/releases/download/v1.0/SUEE8.pcap "8d traffic from 2017-11-05")
 
-The data sets contain traffic in and out of the web server of the [student union electrical engineering (Fachbereichsvertretung Eletrotechnik) at Ulm University](fs-et.de).
+The data sets contain traffic in and out of the web server of the [student union electrical engineering (Fachbereichsvertretung Eletrotechnik) at Ulm University](https://fs-et.de).
 
 The data was mixed with attack traffic. The attacks contained in these data sets are:
 
@@ -23,3 +23,17 @@ The attacking tools were adapted to allow IP spoofing to simulate distributed at
 bytes for the Content-Length header, 10 bytes POST-body length per packet and one socket per client. Slowloris is also configured to use only one socket per client. The default configuration was left in place in all other settings, resulting in a packet interval of 15 seconds.
 
 Slowloris-ng includes several changes to the original slowloris. The additional features implement randomized behavior, which is configured to send in intervals of 15 seconds with a randomization interval of 5 seconds and sending the header lines as bursts of single messages per character.
+
+# Contact
+
+For questions, please contact [Thomas Lukaseder](https://www.uni-ulm.de/?seder)
+
+# Acknowledgment
+
+We like to thank the Student Union Electrical Engineering (Fachbereichsvertre-
+tung Elektrotechnik) at Ulm University and Philipp Hinz in particular for providing the necessary data.
+
+This work was supported in the bwNET100G+ project
+by the Ministry of Science, Research and the Arts Baden-
+W\"urttemberg (MWK).
+
