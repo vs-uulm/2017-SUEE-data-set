@@ -7,7 +7,7 @@ Data sets can be downloaded here:
 | [SUEE1](https://github.com/vs-uulm/2017-SUEE-data-set/releases/download/v1.0/SUEE1.pcap "24h traffic on 2017-11-02")        | 2017-11-02    | 24 h | 1634 | 1192 | 442 | 243 (97/146) |
 | [SUEE8](https://github.com/vs-uulm/2017-SUEE-data-set/releases/download/v1.0/SUEE8.pcap "8d traffic from 2017-11-05")       | 2017-11-05    |  8 d | 8286 | | | |
 
-The data sets contain traffic in and out of the web server of the [Student Union for Electrical Engineering (Fachbereichsvertretung Eletrotechnik) at Ulm University](https://fs-et.de).
+The data sets contain traffic in and out of the web server of the [Student Union for Electrical Engineering (Fachbereichsvertretung Elektrotechnik) at Ulm University](https://fs-et.de).
 
 Internal hosts are hosts from within the university network, some of them are cable bound, others connect through one of two wifi services on campus (eduroam and welcome).
 
@@ -19,7 +19,7 @@ The data was mixed with attack traffic. The attacks contained in these data sets
 
 Caution: because of an of-by-one error, the IP addresses 10.128.0.50 and 10.128.0.100 are used twice. In our own evaluation, we therefore choose to omit any packets sent or received by these clients completely.
 
-The IP and MAC addresses of the benign clients were anonymized with [anon.py](https://github.com/vs-uulm/2017-SUEE-data-set/blob/master/anon.py), all IP addresses in the anonymized data sets are in the 192.168.0.0/16 block. The original IP addresses were in part from the Ulm University network and mostly from diverse networks in Ulm and surrounding areas. Keep in mind, that the same IP address in SUEE1 and SUEE8 are not affiliated. However, every packet sent (or received) by an IP within one data set was originally sent (or received) by the same node.
+The IP and MAC addresses of the benign clients were anonymized with [anon.py](https://github.com/vs-uulm/2017-SUEE-data-set/blob/master/anon.py), all IP addresses in the anonymized data sets are in the 192.168/16 block. The original IP addresses were in part from the Ulm University network and mostly from diverse networks in Ulm and surrounding areas. Keep in mind, that the same IP address in SUEE1 and SUEE8 are not affiliated. However, every packet sent (or received) by an IP within one data set was originally sent (or received) by the same node.
 
 ## Attacker Configuration
 
