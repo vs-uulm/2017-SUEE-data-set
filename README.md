@@ -13,7 +13,7 @@ The data was mixed with attack traffic. The attacks contained in these data sets
 
  * 50 attackers running [slowloris](https://github.com/gkbrk/slowloris) (IP addresses 10.128.0.1 to 10.128.0.50)
  * 50 attackers running [slowhttptest](https://github.com/shekyan/slowhttptest) (IP addresses 10.128.0.50 to 10.128.0.100)
- * 50 attackers running slowloris-ng (IP addresses 10.128.0.100 to 10.128.0.150)
+ * 50 attackers running [slowloris-ng](https://github.com/vs-uulm/slowloris-ng) (IP addresses 10.128.0.100 to 10.128.0.150)
 
 Caution: because of an of-by-one error, the IP addresses 10.128.0.50 and 10.128.0.100 are used twice. In our own evaluation, we therefore choose to omit any packets sent or received by these clients completely.
 
