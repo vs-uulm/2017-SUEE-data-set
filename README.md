@@ -32,7 +32,7 @@ For questions, please contact [Thomas Lukaseder](https://www.uni-ulm.de/?seder).
 
 # Acknowledgment
 
-We like to thank the Student Union Electrical Engineering (Fachbereichsvertretung Elektrotechnik) at Ulm University and Philipp Hinz in particular for providing the necessary data.
+We like to thank the Student Union for Electrical Engineering (Fachbereichsvertretung Elektrotechnik) at Ulm University and Philipp Hinz in particular for providing the necessary data.
 
 This work was supported in the bwNET100G+ project
 by the Ministry of Science, Research and the Arts Baden-
