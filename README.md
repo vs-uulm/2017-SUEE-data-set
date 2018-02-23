@@ -2,10 +2,10 @@
 
 Data sets can be downloaded here:
 
-| data set      | start date    | duration | #hosts |
-| ------------- |:------------- | -----: |-----: |
-| [SUEE1](https://github.com/vs-uulm/2017-SUEE-data-set/releases/download/v1.0/SUEE1.pcap "24h traffic on 2017-11-02")        | 2017-11-02    | 24 h | 1634 |
-| [SUEE8](https://github.com/vs-uulm/2017-SUEE-data-set/releases/download/v1.0/SUEE8.pcap "8d traffic from 2017-11-05")       | 2017-11-05    |  8 d | 8286 |
+| data set      | start date    | duration | hosts | external hosts | internal hosts | internal hosts wifi (eduroam/welcome) |
+| ------------- |:------------- | -----: |-----: |-----: |-----: |-----: |
+| [SUEE1](https://github.com/vs-uulm/2017-SUEE-data-set/releases/download/v1.0/SUEE1.pcap "24h traffic on 2017-11-02")        | 2017-11-02    | 24 h | 1634 | 1267 | 442 | 243 (97/146) |
+| [SUEE8](https://github.com/vs-uulm/2017-SUEE-data-set/releases/download/v1.0/SUEE8.pcap "8d traffic from 2017-11-05")       | 2017-11-05    |  8 d | 8286 | | | |
 
 The data sets contain traffic in and out of the web server of the [Student Union for Electrical Engineering (Fachbereichsvertretung Eletrotechnik) at Ulm University](https://fs-et.de).
 
