@@ -9,6 +9,8 @@ Data sets can be downloaded here:
 
 The data sets contain traffic in and out of the web server of the [Student Union for Electrical Engineering (Fachbereichsvertretung Eletrotechnik) at Ulm University](https://fs-et.de).
 
+Internal hosts are hosts from within the university network, some of them are cable bound, others connect through one of two wifi services on campus (eduroam and welcome).
+
 The data was mixed with attack traffic. The attacks contained in these data sets are:
 
  * 50 attackers running [slowloris](https://github.com/gkbrk/slowloris) (IP addresses 10.128.0.1 to 10.128.0.50)
