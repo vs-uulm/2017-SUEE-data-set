@@ -21,6 +21,15 @@ Caution: because of an of-by-one error, the IP addresses 10.128.0.50 and 10.128.
 
 The IP and MAC addresses of the benign clients were anonymized with [anon.py](https://github.com/vs-uulm/2017-SUEE-data-set/blob/master/anon.py), all IP addresses in the anonymized data sets are in the 192.168/16 block. The original IP addresses were in part from the Ulm University network and mostly from diverse networks in Ulm and surrounding areas. Keep in mind, that the same IP address in SUEE1 and SUEE8 are not affiliated. However, every packet sent (or received) by an IP within one data set was originally sent (or received) from the same IP address.
 
+## Port Distribution
+
+| data set      | number of packets    | TCP source port 80 | TCP source port 443 | TCP destination port 80 | TCP destination port 443 |
+| ------------- |-------------: | -----: |-----: |-----: |-----: |
+| SUEE1        | 2 089 436 | 747 912 | 173 978 | 967 623 | 199 923|
+| SUEE8       | |||||
+
+Only TCP packets to or from port 80 and 443 were captured.
+
 ## Attacker Configuration
 
 The attacking tools were adapted to allow IP spoofing to simulate distributed attacks and were left in standard configuration apart from that. The parameters for slowhttptest were 30 seconds intervals, 8192
