@@ -25,8 +25,8 @@ The IP and MAC addresses of the benign clients were anonymized with [anon.py](ht
 
 | data set      | number of packets    | TCP source port 80 | TCP source port 443 | TCP destination port 80 | TCP destination port 443 |
 | ------------- |-------------: | -----: |-----: |-----: |-----: |
-| SUEE1        | 2 089 436 | 747 912 | 173 978 | 967 623 | 199 923|
-| SUEE8       | |||||
+| SUEE1        | 2,089,436 | 747,912 | 173,978 | 967,623 | 199,923|
+| SUEE8       | 19,301,217 | 7,175,627 | 1,229,516 | 9,312,537 | 1,583,543 |
 
 Only TCP packets to or from port 80 and 443 were captured.
 
