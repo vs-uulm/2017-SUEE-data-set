@@ -7,7 +7,7 @@ Data sets can be downloaded here:
 | [SUEE1](https://github.com/vs-uulm/2017-SUEE-data-set/releases/download/v1.1/SUEE1.pcap "24h traffic on 2017-11-02")        | 2017-11-02    | 24 h | 1634 | 1192 | 442 | 243 (97/146) |
 | [SUEE8](https://github.com/vs-uulm/2017-SUEE-data-set/releases/download/v1.1/SUEE8.pcap "8d traffic from 2017-11-05")       | 2017-11-05    |  8 d | 8286 | 6755 | 1531 | 705 (328/377) |
 
-** SUEE8 updated on 2019-04-05 in release v1.1, due to missing attack traffic in v1.0 **
+**SUEE8 updated on 2019-04-05 in release v1.1, due to missing attack traffic in v1.0**
 
 The data sets contain traffic in and out of the web server of the [Student Union for Electrical Engineering (Fachbereichsvertretung Elektrotechnik) at Ulm University](https://fs-et.de).
 
